@@ -4,10 +4,10 @@ import unittest
 
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../../src')))
 
-from tcpy_parser.tcpy_parser import TCPyParser
-from tcpy_parser.tcpy_file import TCPyFile
-from tcpy_parser.tcpy_attribute import TCPyAttribute
-from tcpy_exceptions.tcpy_exceptions import InvalidTypeError, InvalidFormatError
+from tcpy_file_parsing.tcpy_parser import TCPyParser
+from tcpy_file_parsing.tcpy_file import TCPyFile
+from tcpy_file_parsing.tcpy_attribute import TCPyAttribute
+from tcpy_error_handling.tcpy_exceptions import InvalidTypeError, InvalidFormatError
 
 class TestTCPyParser(unittest.TestCase):
     def setUp(self):

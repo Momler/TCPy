@@ -1,4 +1,4 @@
-from tcpy_parser.tcpy_attribute import TCPyAttribute
+from tcpy_file_parsing.tcpy_attribute import TCPyAttribute
 
 class TCPyFile:
     def __init__(self, filepath: str, attributes: list[TCPyAttribute]):

@@ -1,6 +1,6 @@
-from tcpy_parser.tcpy_attribute import TCPyAttribute
-from tcpy_parser.tcpy_file import TCPyFile
-from tcpy_exceptions.tcpy_exceptions import InvalidTypeError, InvalidFormatError
+from tcpy_file_parsing.tcpy_attribute import TCPyAttribute
+from tcpy_file_parsing.tcpy_file import TCPyFile
+from tcpy_error_handling.tcpy_exceptions import InvalidTypeError, InvalidFormatError
 
 class TCPyParser:
     def __init__(self, filename: str):
